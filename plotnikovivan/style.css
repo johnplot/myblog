@@ -5,3 +5,8 @@ Theme Name: Тема Plotnikov Ivan
 body {
     background: #eee;
 }
+
+.row>* {
+    background: yellow;
+    border: 1px solid red;
+}

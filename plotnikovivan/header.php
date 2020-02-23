@@ -13,8 +13,21 @@
 <header class="header">
    <div class="container">
 
-   
-   </div>
+      <nav class="navbar navbar-default navbar-mobile bootsnav">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+               <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+               <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+               </ul>
+            </div>
+         </div>
+      </nav>
 </header>
 
 
